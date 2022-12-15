@@ -173,12 +173,5 @@
             <artifactId>allure-testng</artifactId>
             <version>${allure.version}</version>
         </dependency>
-
-        <!-- AssertJ generation helper -->
-        <dependency>
-            <groupId>javax.annotation</groupId>
-            <artifactId>javax.annotation-api</artifactId>
-            <version>${javax.annotation-api}</version>
-        </dependency>
     </dependencies>
 </project>
