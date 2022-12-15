@@ -7,5 +7,4 @@ public interface Page {
     default By getButton(String name) {
         return Button.name(name);
     }
-
 }

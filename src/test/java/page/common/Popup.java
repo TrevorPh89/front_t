@@ -8,5 +8,4 @@ public interface Popup {
     By getBtnClose();
 
     By getBtnConfirm();
-
 }
