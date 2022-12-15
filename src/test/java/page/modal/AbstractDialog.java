@@ -15,5 +15,4 @@ public abstract class AbstractDialog extends AbstractPopup {
     public By getInput() {
         return Input.placeholder(fieldPlaceholder);
     }
-
 }

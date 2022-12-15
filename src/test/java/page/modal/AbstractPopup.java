@@ -23,5 +23,4 @@ public abstract class AbstractPopup implements Popup {
     public By getBtnConfirm() {
         return Button.name(confirmText);
     }
-
 }

@@ -77,7 +77,5 @@ public class AllModulesPage implements SelfValidatable, Page {
                     .withCreationDate(LocalDateTime.parse(elements.get(2).getText(), DateTimeFormatter.ofPattern(DATE_TIME_PATTERN)))
                     .withAuthor(elements.get(3).getText());
         }
-
     }
-
 }
