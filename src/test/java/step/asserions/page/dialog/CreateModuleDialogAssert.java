@@ -17,5 +17,4 @@ public class CreateModuleDialogAssert extends AbstractDialogAssert<CreateModuleD
     public ModulePageStep and() {
         return BDD.when(page(ModulePage.class));
     }
-
 }
