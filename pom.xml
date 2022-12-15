@@ -98,23 +98,6 @@
                 <artifactId>allure-maven</artifactId>
                 <version>${allure.maven.version}</version>
             </plugin>
-
-            <!-- AssertJ generation -->
-            <plugin>
-                <groupId>org.assertj</groupId>
-                <artifactId>assertj-assertions-generator-maven-plugin</artifactId>
-                <version>${assertj.assertions.generator.maven.pluginversion}</version>
-                <configuration>
-                    <generateAssertionsForAllFields>true</generateAssertionsForAllFields>
-                    <generateAssertions>false</generateAssertions>
-                    <generateJUnitSoftAssertions>false</generateJUnitSoftAssertions>
-                    <generateBddAssertions>false</generateBddAssertions>
-                    <generateSoftAssertions>false</generateSoftAssertions>
-                    <generateAssertionsInPackage>false</generateAssertionsInPackage>
-                    <hierarchical>false</hierarchical>
-                    <targetDir>src/main/java/</targetDir>
-                </configuration>
-            </plugin>
         </plugins>
 
         <pluginManagement>
@@ -125,17 +108,9 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.8.0</version>
                 </plugin>
-
-                <!-- AssertJ generation -->
-                <plugin>
-                    <groupId>org.assertj</groupId>
-                    <artifactId>assertj-assertions-generator-maven-plugin</artifactId>
-                    <version>${assertj.assertions.generator.maven.pluginversion}</version>
-                </plugin>
             </plugins>
         </pluginManagement>
     </build>
-
 
     <dependencies>
         <!-- Common testing tools -->
